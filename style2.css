@@ -1,0 +1,95 @@
+/* Tároló beállításai */
+.container {
+    display: flex;
+    justify-content: center; /* Horizontálisan középre igazítás */
+    align-items: center;     /* Vertikálisan középre igazítás */
+    width: 800px;
+    height: 300px;
+    background-color: yellow;
+  }
+  
+  /* Elemek méretei */
+  .box {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Zöld és sárga elem elrejtése */
+  .green, .yellow {
+    display: none;
+  }
+  
+  /* Lila elem megjelenítése */
+  .purple {
+    background-color: purple;
+  }
+
+  /* 2. feladat: Tároló és listaelemek elrendezése */
+.container2 {
+    display: flex;
+    justify-content: flex-start; /* Bal szélhez igazítás */
+    align-items: center;         /* Vertikálisan középre igazítás */
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin-bottom: 10px; /* Kisebb távolság az elemek között */
+  }
+
+  /* 3. Feladat: Listaelemek vízszintes, egyenletes elrendezése a tárolóban */
+.container3 {
+    display: flex;
+    justify-content: space-between; /* Elemek egyenletes elosztása */
+    align-items: center;            /* Vertikálisan középre igazítás */
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+  }
+  
+  .list {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Listaelemek pontjai eltávolítása */
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+  }
+
+  /* 4. Feladat: Listaelemek a tároló jobb alsó sarkában */
+.container4 {
+    display: flex;
+    justify-content: flex-end;    /* Jobb szélhez igazítás */
+    align-items: flex-end;        /* Alsó szélhez igazítás */
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+  }
+  
+  .list {
+    list-style-type: none;        /* Listaelemek pontjainak eltávolítása */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin-left: 10px;           /* Kis távolság a listaelemek között */
+  }
